@@ -1,0 +1,141 @@
+/*Service */
+
+.section-service {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+
+/* END __  Section-SERVICE   */
+
+
+/*   Section whyChoose   */
+
+.section-whyChoose {
+    background-image: linear-gradient(120deg, #eef1f2, #fff);
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.single-choose {
+    padding: 0 1.5rem;
+    margin-bottom: 4.5rem;
+    &__icon {
+        border-radius: 50%;
+        color: #f9461d;
+        background: transparent;
+        font-size: 3rem;
+        height: 8rem;
+        line-height: 8rem;
+        text-align: center;
+        top: 0;
+        width: 80px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ffb900;
+    }
+    &:hover {
+        transition: all .3s;
+        transform: scale(1.01);
+    }
+    h4 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: #333;
+    }
+}
+
+
+/*  End Section whyChoose   */
+
+
+/*  Section topDeals   */
+
+.section-topDeals {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* End Section topDeals   */
+
+
+/*  Section Blog  */
+
+.section-blog {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* End Section Blog   */
+
+
+/*  Section Contact   */
+
+.section-contact {
+    padding-top: 8rem;
+    background: #eef1f2;
+}
+
+.contact {
+    background: #fff;
+    padding: 5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    input,
+    textarea {
+        margin-bottom: 0.5rem;
+        padding: 1rem 1.5rem;
+        width: 100%;
+        border: 1px solid grey;
+        border-radius: 2px;
+    }
+    input:focus,
+    textarea:focus {
+        border: 1px solid #fff;
+        background: rgba(147, 214, 195, 0.7);
+        color: white;
+    }
+    .form-group {
+        .btn--submit {
+            width: 20rem;
+            border: 1px solid #f9461d;
+            border-radius: 10rem;
+            padding: 1.25rem 0.25rem;
+        }
+    }
+}
+
+
+/* End Section Contact   */
+
+
+/*  Footer */
+
+.footer {
+    padding-top: 8rem;
+    padding-bottom: 4.5rem;
+    &__menu ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        a:hover {
+            text-decoration: none;
+            color: $color-secondary-light;
+        }
+        a {
+            color: #777777;
+        }
+        li {
+            padding: 2rem;
+        }
+    }
+}
+
+
+/*End Footer */

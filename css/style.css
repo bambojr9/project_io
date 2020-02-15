@@ -194,12 +194,10 @@ header {
   background-position: center center;
   background-attachment: fixed;
   width: 100%;
-  height: 60rem; }
+  height: 65vh; }
   header .navbar-dark .navbar-toggler {
     color: #ff7730;
     border-color: white; }
-  header .navbar-dark .navbar-nav .active a {
-    border-bottom: 2px solid #ffb900; }
   header .navbar-dark .navbar-nav .nav-link {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -273,7 +271,7 @@ header {
   background: #eef1f2; }
 
 .contact {
-  background: #fff;
+  background: #eef1f2;
   padding: 5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15); }
   .contact input,

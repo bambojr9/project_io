@@ -689,23 +689,6 @@ header {
 @media (min-width: 1200px) {
   header {
     height: 65rem; }
-    header .navbar-dark .navbar-toggler {
-      position: relative;
-      right: 8%; }
-    header .navbar-dark .navbar-nav {
-      margin-top: 2rem;
-      background-color: transparent; }
-      header .navbar-dark .navbar-nav li {
-        border-top: none; }
-      header .navbar-dark .navbar-nav .active a {
-        border-bottom: 1px solid #ff7730; }
-      header .navbar-dark .navbar-nav .nav-link {
-        margin-left: 2.5rem;
-        font-size: 1.2rem; }
-        header .navbar-dark .navbar-nav .nav-link:hover {
-          color: #ff7730; }
-    header .navbar-dark .navbar__logo img {
-      width: 15rem; }
 
   .text-box {
     padding-top: 25rem;

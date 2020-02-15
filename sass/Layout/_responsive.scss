@@ -374,32 +374,6 @@
 @media (min-width: 1200px) {
     header {
         height: 65rem;
-        .navbar-dark {
-            .navbar-toggler {
-                position: relative;
-                right: 8%;
-            }
-            .navbar-nav {
-                margin-top: 2rem;
-                background-color: transparent;
-                li {
-                    border-top: none;
-                }
-                .active a {
-                    border-bottom: 1px solid $color-secondary-dark;
-                }
-                .nav-link {
-                    margin-left: 2.5rem;
-                    font-size: 1.2rem;
-                    &:hover {
-                        color: $color-secondary-dark;
-                    }
-                }
-            }
-            .navbar__logo img {
-                width: 15rem;
-            }
-        }
     }
     .text-box {
         padding-top: 25rem;

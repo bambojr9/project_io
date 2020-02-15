@@ -1,7 +1,7 @@
 .composition {
     box-shadow: 0 16px 50px rgba(13, 41, 51, 0.30);
     &__photo {
-        width: 50%;
+        width: 49%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         border-radius: .2rem;
         position: absolute;
@@ -15,7 +15,7 @@
             z-index: 5;
         }
         &--p2 {
-            right: -2%;
+            right: -1%;
             top: 0;
             z-index: 4;
         }

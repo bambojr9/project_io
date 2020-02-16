@@ -213,6 +213,9 @@ header {
   header .navbar-dark .navbar__logo img {
     width: 15rem; }
 
+.cb-fixed {
+  background: grey; }
+
 /*Service */
 .section-service {
   padding-top: 8rem;

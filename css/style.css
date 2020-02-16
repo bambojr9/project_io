@@ -688,7 +688,48 @@ header {
         font-size: 2.5rem; }
     .text-box p {
       margin-bottom: 3.5rem;
-      font-size: 2rem; } }
+      font-size: 2rem; }
+
+  .single-deal {
+    position: relative;
+    color: #fff;
+    margin-top: 3rem;
+    transition: all .3s;
+    outline-offset: 1rem; }
+    .single-deal h4 {
+      position: absolute;
+      top: 43%;
+      left: 50%;
+      color: #fff;
+      text-transform: capitalize;
+      z-index: 1;
+      text-transform: uppercase;
+      transform: translate(-50%, 40%);
+      font-weight: 500;
+      transition: all .5s ease; }
+    .single-deal a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 100%);
+      background: #f9461d;
+      color: #fff;
+      font-size: 13px;
+      border-radius: 30px;
+      padding: 10px 30px;
+      display: inline-block;
+      opacity: 0;
+      transition: all .5s ease; }
+    .single-deal:hover {
+      outline: 0.2rem solid #ffb900;
+      transform: scale(1.02);
+      box-shadow: 0 1.5rem 4rem rgba(255, 185, 202, 0.4);
+      filter: brightness(95%); }
+      .single-deal:hover h4 {
+        transform: translate(-50%, -140%); }
+      .single-deal:hover a {
+        transform: translate(-50%, 90%);
+        opacity: 1; } }
 @media (min-width: 1200px) {
   header {
     height: 65rem; }

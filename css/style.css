@@ -315,13 +315,21 @@ header {
       padding: 2rem; }
 
 /*End Footer */
+.nav-btn {
+  display: flex;
+  justify-content: flex-end; }
+
 .btn--up {
+  width: 50px;
   border-radius: 50%;
   color: #fff;
   background-color: #f9461d;
   opacity: 0;
   padding: 1.5rem;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem; }
   .btn--up:hover {
     background-color: #1e1e1e;
     text-decoration: none;

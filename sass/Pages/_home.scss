@@ -141,13 +141,22 @@
 /*End Footer */
 
 //fixed-bottom
+.nav-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .btn--up {
+    width: 50px;
     border-radius: 50%;
     color: #fff;
-    background-color: $color-btn;
+    background-color: #f9461d;
     opacity: 0;
     padding: 1.5rem;
     display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
     &:hover {
         background-color: #1e1e1e;
         text-decoration: none;

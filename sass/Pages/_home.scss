@@ -102,11 +102,16 @@
         color: white;
     }
     .form-group {
-        .btn--submit {
-            width: 20rem;
-            border: 1px solid #f9461d;
-            border-radius: 10rem;
-            padding: 1.25rem 0.25rem;
+        button {
+            padding: 0.7rem 3rem;
+            border: 1px solid $color-secondary-light;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #f9461d;
+            &:hover {
+                background: rgba(147, 214, 195, 0.7);
+                border: 1px solid $color-tertiary-light;
+            }
         }
     }
 }

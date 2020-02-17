@@ -139,3 +139,22 @@
 
 
 /*End Footer */
+
+//fixed-bottom
+.btn--up {
+    border-radius: 50%;
+    color: #fff;
+    background-color: $color-btn;
+    opacity: 0;
+    padding: 1.5rem;
+    display: flex;
+    &:hover {
+        background-color: #1e1e1e;
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+.show {
+    opacity: 1;
+}

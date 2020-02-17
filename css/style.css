@@ -315,6 +315,21 @@ header {
       padding: 2rem; }
 
 /*End Footer */
+.btn--up {
+  border-radius: 50%;
+  color: #fff;
+  background-color: #f9461d;
+  opacity: 0;
+  padding: 1.5rem;
+  display: flex; }
+  .btn--up:hover {
+    background-color: #1e1e1e;
+    text-decoration: none;
+    color: #FFF; }
+
+.show {
+  opacity: 1; }
+
 .composition {
   box-shadow: 0 16px 50px rgba(13, 41, 51, 0.3); }
   .composition__photo {

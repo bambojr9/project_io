@@ -171,7 +171,8 @@ body {
     .single-package__image:hover {
       filter: brightness(1.2); }
       .single-package__image:hover .btn-bg {
-        opacity: 1; }
+        opacity: 1;
+        text-decoration: none; }
   .single-package__price {
     position: absolute;
     top: 1rem;

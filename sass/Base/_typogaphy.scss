@@ -63,7 +63,6 @@ body {
         top: 43%;
         left: 50%;
         color: #fff;
-        text-transform: capitalize;
         z-index: 1;
         text-transform: uppercase;
         transform: translate(-50%, 40%);
@@ -88,9 +87,10 @@ body {
         outline: 0.2rem solid $color-secondary-light;
         transform: scale(1.02);
         box-shadow: 0 1.5rem 4rem rgba(255, 185, 202, 0.4);
-        filter: brightness(95%);
+        filter: brightness(110%);
         h4 {
             transform: translate(-50%, -140%);
+            filter: brightness(120%);
         }
         a {
             transform: translate(-50%, 90%);
@@ -134,6 +134,73 @@ body {
             right: 1.3rem;
             top: 0;
             border-radius: 50%;
+        }
+    }
+}
+
+.single-package {
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-bottom: 0.1px solid #888888;
+    overflow: hidden;
+    &__image {
+        position: relative;
+        .btn-bg {
+            position: absolute;
+            color: #fff;
+            font-size: 13px;
+            background: #f9461d;
+            border-radius: 30px;
+            padding: 0.5rem 1.2rem;
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: .5s;
+        }
+        &:hover {
+            filter: brightness(1.2);
+            .btn-bg {
+                opacity: 1;
+            }
+        }
+    }
+    &__price {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: #f9461d;
+        color: #fff;
+        border-radius: 0.5rem;
+        padding: 0.4rem 1rem;
+        font-size: 1.3rem;
+    }
+    &__body {
+        padding: 25px 20px 10px;
+        h5 {
+            font-size: 1.8rem;
+            margin-bottom: 0.3rem;
+            text-transform: capitalize;
+            font-weight: 600;
+            color: #333;
+        }
+        .rating {
+            color: #fec42d;
+        }
+        .time-zone {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+            text-transform: capitalize;
+            width: 100%;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 1.4rem;
         }
     }
 }

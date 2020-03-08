@@ -1,17 +1,3 @@
-/*
-@import './Abstracts/variable';
-@import './Base/animations';
-@import './Base/base';
-@import './Base/typogaphy';
-@import './Components/buttons';
-@import './Layout/header';
-@import './Layout/grid';
-@import './Pages/home';
-@import './Base/utilities';
-@import './Components/composition';
-@import './Components/skill-box';
-@import './Components/card';
-*/
 *,
 *::before,
 *::after {
